@@ -1,0 +1,16 @@
+html * {
+	font-family: 'Fira Sans', sans-serif;
+}
+.courses-blocks {
+	display: flex;
+}
+.courses-block {
+	width: 166px;
+	height: 128px;
+	background: #f2f3f6;
+	border-radius: 10px;
+}
+.courses-block:hover {
+	background: #7713b9;
+	color: #fff;
+}
