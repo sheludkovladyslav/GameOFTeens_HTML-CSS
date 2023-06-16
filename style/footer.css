@@ -37,3 +37,11 @@
     font-size: 16px;
     padding-top: 10px;
 }
+.footer-logo-paragraph {
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 12px;
+}
+.footer-logo-wrapper {
+    padding-right:197px ;
+}
