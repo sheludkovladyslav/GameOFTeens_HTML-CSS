@@ -1,0 +1,23 @@
+html * {
+	font-family: 'Fira Sans', sans-serif;
+}
+.title-header {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 53px;
+	text-align: center;
+	color: #111238;
+	margin-bottom: 15px;
+	width: 569px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+.subtitle-haeder {
+	color: #111238;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	width: 569px;
+	margin: 0 auto;
+}
