@@ -1,0 +1,18 @@
+.main-OurMission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-OurMission-title {
+    padding-top: 171px;
+}
+.main-OurMission-paragraph {
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 24px;
+    width: 760px;
+    height: 170px;
+    text-align: center;
+    padding-top: 32px;
+}
