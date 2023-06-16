@@ -1,0 +1,39 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+.navigation_img {
+  margin-top: 30px;
+}
+.navigation_button {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 15px;
+  background: #7713b9;
+  border-radius: 5px;
+}
+.navigation_button_img {
+  margin: 0px 11px;
+}
+.navigation_button_text {
+  font-family: "Fira Sans";
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 19px;
+}
+.navigation_contaner {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation_item {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+}
