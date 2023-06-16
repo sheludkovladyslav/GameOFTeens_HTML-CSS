@@ -1,0 +1,39 @@
+.footer {
+    display: flex;
+    padding-top: 180px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 99px;
+}
+.footer-information {
+    flex-direction: column;
+    padding-right: 268px;
+}
+.footer-information-title {
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    font-size: 16px
+}
+.footer-information-paragraph {
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav-title {
+    font-family: 'Fira Sans';
+    font-weight: 700;
+    font-size: 16px;
+}
+.footer-nav-link {
+    text-decoration: none;
+    color: #111238;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 10px;
+}
