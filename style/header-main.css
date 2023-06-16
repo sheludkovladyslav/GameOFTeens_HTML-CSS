@@ -92,3 +92,7 @@ html * {
 .designer {
 	width: 76px;
 }
+.header-main {
+    padding-top: 120px;
+    padding-bottom: 340px;
+}
