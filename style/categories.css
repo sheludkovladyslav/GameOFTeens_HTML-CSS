@@ -157,6 +157,10 @@
   border-radius: 5px;
 }
 
+.margin {
+  margin-right: 25px;
+}
+
 .skills-wrapper {
   display: flex;
   align-items: center;
@@ -214,11 +218,12 @@
 .sql {
   width: 45px;
   height: 27px;
+  margin-right: 25px;
 }
 
 .minecraft {
-  width: 332px;
-  height: 27px;
+  width: 269px;
+  height: 44px;
 }
 
 .sketch {
@@ -229,6 +234,7 @@
 .photoshop {
   width: 133px;
   height: 27px;
+  margin-right: 25px;
 }
 
 .premiere {
@@ -301,6 +307,6 @@
 
 @media screen and (max-width: 583px) {
   .card {
-    width: 600px;
+    width: 370px;
   }
 }

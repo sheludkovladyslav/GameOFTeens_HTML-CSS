@@ -1,5 +1,7 @@
 body {font-family: 'Fira Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
 
 input {
     outline: none;
