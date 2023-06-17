@@ -224,7 +224,6 @@
 .minecraft {
   width: 269px;
   height: 44px;
-  margin-bottom: 5px;
 }
 
 .sketch {
@@ -251,6 +250,10 @@
 .final {
   width: 74px;
   height: 27px;
+}
+
+.premiere, .minecraft, .react, .python, .figma {
+  margin-bottom: 5px;
 }
 
 .btn-vacancies {
