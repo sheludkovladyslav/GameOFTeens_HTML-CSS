@@ -1,6 +1,4 @@
-.main-WhyUs {
-    padding-top: 170px;
-}
+
 .main-WhyUs-title {
     display: flex;
     justify-content: center;
@@ -8,6 +6,7 @@
     font-family: 'Fira Sans';
     font-weight: 700;
     font-size: 36px;
+    margin-top: 100px;
 }
 .main-WhyUs-list {
     display: flex;
@@ -31,6 +30,7 @@
 }
 .main-WhyUs-card {
     width: 270px;
+
 }
 
 

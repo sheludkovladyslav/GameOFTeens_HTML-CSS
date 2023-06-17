@@ -1,2 +1,10 @@
 body {font-family: 'Fira Sans', sans-serif;
     font-family: 'Roboto', sans-serif;}
+
+input {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}

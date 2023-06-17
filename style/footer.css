@@ -2,17 +2,19 @@
     display: flex;
     padding-top: 180px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding-bottom: 99px;
 }
 .footer-information {
     flex-direction: column;
-    padding-right: 268px;
+    display: flex;
+    
 }
 .footer-information-title {
     font-family: 'Fira Sans';
     font-weight: 700;
-    font-size: 16px
+    font-size: 16px;
+    color: #111238;
 }
 .footer-information-paragraph {
     font-family: 'Fira Sans';
@@ -20,14 +22,12 @@
     font-size: 16px;
     padding-top: 10px;
 }
-.footer-nav {
-    display: flex;
-    flex-direction: column;
-}
+
 .footer-nav-title {
     font-family: 'Fira Sans';
     font-weight: 700;
     font-size: 16px;
+    color: #111238;
 }
 .footer-nav-link {
     text-decoration: none;
@@ -44,4 +44,22 @@
 }
 .footer-logo-wrapper {
     padding-right:197px ;
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 200px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav-link:hover {
+    color: #7713B9;
+}
+
+.footer-nav-link:focus {
+    color: #7713B9;
 }

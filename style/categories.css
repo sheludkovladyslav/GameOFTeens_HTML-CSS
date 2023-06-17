@@ -1,0 +1,267 @@
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.categories_items {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  justify-content: center;
+}
+
+.categories_item {
+  display: flex;
+  margin-right: 30px;
+  padding: 35px 55px;
+  background: #f2f3f6;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.categories_iteme_img {
+  width: 26px;
+  height: 24px;
+}
+.categories_item:hover {
+  background: #7713b9;
+}
+.categories_item:hover img {
+  filter: brightness(0) invert(1);
+}
+.categories_item:hover p {
+  color: white;
+}
+
+.categories {
+  margin-bottom: 56px;
+}
+
+.categories-title {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #111238;
+  margin-left: 5%;
+  margin-bottom: 25px;
+  margin-top: 110px;
+}
+
+.card {
+  width: 1245px;
+  border: 1px solid #c5c9d5;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  height: 160px;
+  justify-content: space-around;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.price {
+  width: 139px;
+  height: 39px;
+  background: #7713b9;
+  border-radius: 5px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.wrapper-course {
+  margin-left: 35px;
+}
+
+.card-title {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #111238;
+}
+
+.skills {
+  color: #b2b2b2;
+}
+
+.react {
+  width: 56px;
+  height: 27px;
+  color: #b2b2b2;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.js {
+  width: 32px;
+  height: 27px;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b2b2b2;
+}
+
+.html {
+  width: 55px;
+  height: 27px;
+  color: #b2b2b2;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.css {
+  width: 43px;
+  height: 27px;
+  color: #b2b2b2;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.figma {
+  width: 58px;
+  height: 27px;
+  color: #b2b2b2;
+  border: 1px solid #b2b2b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.skills-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wrapper-course {
+  display: flex;
+  flex-direction: column;
+}
+
+.time {
+  color: #b2b2b2;
+}
+
+.card-link {
+  margin-left: 75px;
+  display: flex;
+  align-items: center;
+  color: #7713b9;
+}
+
+.txt-skill {
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #b2b2b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.python {
+  width: 65px;
+  height: 27px;
+}
+
+.git {
+  width: 38px;
+  height: 27px;
+}
+.api {
+  width: 41px;
+  height: 27px;
+}
+.flask {
+  width: 52px;
+  height: 27px;
+}
+.sql {
+  width: 45px;
+  height: 27px;
+}
+
+.minecraft {
+  width: 332px;
+  height: 27px;
+}
+
+.sketch {
+  width: 63px;
+  height: 27px;
+}
+
+.photoshop {
+  width: 133px;
+  height: 27px;
+}
+
+.premiere {
+  width: 95px;
+  height: 27px;
+}
+
+.davinci {
+  width: 68px;
+  height: 27px;
+}
+
+.final {
+  width: 74px;
+  height: 27px;
+}
+
+.btn-vacancies {
+  display: flex;
+  justify-content: center;
+  background: #7713b9;
+  border-radius: 5px;
+  width: 184px;
+  height: 49px;
+  border: none;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 43px;
+  
+}
