@@ -8,3 +8,7 @@ input {
 button {
     cursor: pointer;
 }
+
+.active {
+    color: #7713b9;
+}

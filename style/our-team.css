@@ -20,6 +20,10 @@
   background: #ffffff;
 }
 
+.card img {
+  margin-top: 20px;
+}
+
 .our-team {
   display: flex;
   gap: 70px;
