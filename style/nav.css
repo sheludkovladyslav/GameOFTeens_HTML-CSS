@@ -1,8 +1,7 @@
 .navigation {
   display: flex;
   justify-content: space-around;
-  flex-direction: row ;
-
+  flex-direction: row;
 }
 .navigation_img {
   margin-top: 30px;
@@ -13,11 +12,11 @@
 }
 
 .navigation_item:hover {
-  color: #7713B9;
+  color: #7713b9;
 }
 
 .navigation_item:focus {
-  color: #7713B9;
+  color: #7713b9;
 }
 
 .navigation-container {
@@ -41,9 +40,6 @@
   margin-top: 20px;
 }
 
-
-
-
 .navigation_button_text {
   font-family: "Fira Sans";
   font-size: 16px;
@@ -59,3 +55,25 @@ li {
   list-style-type: none;
 }
 
+@media screen and (max-width:700px) {
+  .navigation_button {
+    display: none;
+  }
+
+  .main-OurMission {
+   
+  }
+}
+
+
+@media screen and (max-width:1200px) {
+ 
+    .main-OurMission {
+      flex-wrap: wrap;
+    }
+  
+  .whywe {
+    flex-wrap: wrap;
+    
+  }
+}
