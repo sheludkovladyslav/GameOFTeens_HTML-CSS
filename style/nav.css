@@ -37,7 +37,7 @@
   height: 56px;
   gap: 11px;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .navigation_button_text {
@@ -60,9 +60,7 @@ li {
     display: none;
   }
 
-  .main-OurMission {
-   
-  }
+
 }
 
 
@@ -77,3 +75,5 @@ li {
     
   }
 }
+
+@mez

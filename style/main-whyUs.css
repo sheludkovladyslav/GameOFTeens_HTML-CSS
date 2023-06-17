@@ -13,7 +13,7 @@
 }
 
 .main-card {
-  width: 270px;
+  width: 20%;
 }
 
 .title-whywe {
@@ -46,4 +46,14 @@
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+
+
+@media screen and (min-width:550px) {
+    .whywe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
 }

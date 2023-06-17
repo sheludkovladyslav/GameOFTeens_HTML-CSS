@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-around;
     padding-bottom: 99px;
+    width: 100%;
 }
 .footer-information {
     flex-direction: column;
@@ -42,14 +43,13 @@
     font-weight: 400;
     font-size: 12px;
 }
-.footer-logo-wrapper {
-    padding-right:197px ;
-}
 
 .footer-wrapper {
     display: flex;
-    gap: 200px;
+    flex-direction: column;
+    gap: 30px;
 }
+
 
 .footer-nav {
     display: flex;
@@ -63,3 +63,4 @@
 .footer-nav-link:focus {
     color: #7713B9;
 }
+
