@@ -56,6 +56,22 @@
   margin-bottom: 30px;
 }
 
+.mission {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #111238;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+
 @media screen and (max-width:981px) {
   .our-team {
     flex-direction: column;
