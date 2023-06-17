@@ -2,36 +2,40 @@ html * {
   font-family: "Fira Sans", sans-serif;
 }
 .header-main {
+  flex-direction: column;
+  width: 100%;
+  margin-top: 30px;
   margin: 0 auto;
-  width: 537px;
-  height: 70px;
+  display: flex;
+  align-items: center;
+
+}
+
+.input-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 30px;
 }
-.input-header {
-  width: 537px;
-  height: 70px;
-  background: #ffffff;
-  box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
-  border-radius: 5px;
-  display: flex;
-  align-items: center;
-  outline: none;
-  justify-content: center;
-  color: #b2b2b2;
-  outline-color:white ;
-}
-.input-header-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 49px;
+
+.input {
   font-family: "Fira Sans";
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   outline: none;
+  border: none;
+  color: #b2b2b2;
+  width: 300px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10%;
 }
+
 .button-header-main {
   width: 222px;
   height: 49px;
@@ -55,8 +59,8 @@ html * {
 .example {
   display: flex;
   margin: 0 auto;
-  width: 440px;
-  margin-bottom: 50px;
+  width: 100%;
+  justify-content: center;
 }
 .example-text {
   width: 95px;
@@ -94,6 +98,7 @@ html * {
   width: 76px;
 }
 .header-main {
-  padding-top: 120px;
-  padding-bottom: 340px;
+  margin-top: 60px;
+  margin-bottom: 120px;
 }
+
